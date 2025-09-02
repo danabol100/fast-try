@@ -1,0 +1,144 @@
+.hero {
+    padding-top: 80px;
+    background-color: #0F172A;
+    color: white;
+}
+
+.container {}
+
+.hero-wrap {}
+
+.hero-text-blok {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 750px;
+}
+
+.hero-title {
+    font-size: 72px;
+    margin-bottom: 32px;
+}
+
+.accent-bottom {
+    position: relative;
+
+}
+
+.accent-top {
+    position: relative;
+    z-index: 1;
+}
+
+.accent-bottom::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 98%;
+    height: 4px;
+    background: #C084FC;
+}
+
+.accent-top::before {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 17px;
+    width: 98%;
+    height: 6px;
+    background: #C084FC;
+    z-index: -1;
+}
+
+.purple {
+    color: #9333EA;
+}
+
+.hero-subtitle {
+    font-size: 18;
+    margin-bottom: 32px;
+}
+
+.hero-action-btn {
+    margin-bottom: 68px;
+}
+
+.btn-hero-purple {
+    margin-right: 16px;
+    display: inline-block;
+    padding: 14px 32px 14px 32px;
+
+    background-color: #9333EA;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.btn-hero-black {
+    display: inline-block;
+    padding: 14px 32px 14px 32px;
+    background-color: #090909;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.hero-img-blok {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.hero-img {
+    width: 100%;
+
+}
+
+.hero-footer-blok {
+    padding-bottom: 60px;
+}
+
+.hero-footer-title {
+    font-size: 52px;
+    text-align: center;
+    margin-bottom: 82px;
+}
+
+.hero-vector-blok {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.vector-blok {
+
+    display: flex;
+    gap: 5px;
+}
+
+.vector-text {
+    font-size: 24px;
+}
+
+@media (max-width:768px) {
+    .hero-title {
+        font-size: 56px;
+        margin-bottom: 32px;
+    }
+
+    .hero-footer-title {
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 82px;
+    }
+
+    .hero-footer-blok {
+        padding-bottom: 16px;
+    }
+
+}
